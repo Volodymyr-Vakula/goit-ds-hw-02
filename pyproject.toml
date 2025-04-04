@@ -1,0 +1,17 @@
+[project]
+name = "goit-ds-hw-02"
+version = "0.1.0"
+description = "Data Science Module 2 Homework"
+authors = [
+    {name = "Volodymyr Vakula",email = "vakula.volodymyr@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "faker (>=37.1.0,<38.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
